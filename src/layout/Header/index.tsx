@@ -38,10 +38,10 @@ const Header = (props: Props) => {
       logo={
         <Space>
           <Link href="/" style={{ color: 'inherit' }}>
-            <Logo extra={'Lobe Vidol'} size={36} />
+            <Logo extra={'Regina'} size={36} />
           </Link>
           <Tooltip title={t('header.tips')}>
-            <Tag color="yellow">WIP</Tag>
+            <Tag color="red">WIP</Tag>
           </Tooltip>
         </Space>
       }
